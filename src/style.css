@@ -6,14 +6,48 @@
   html {
     scroll-behavior: smooth;
   }
-
   * {
     box-sizing: border-box;
   }
+  body {
+    overflow-x: hidden;
+  }
 }
 
-@layer utilities {
-  .font-800 {
-    font-weight: 800;
-  }
+/* ── Marquee ──────────────────────────────────── */
+.marquee-wrapper {
+  -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+}
+
+.marquee-track {
+  animation: marquee 35s linear infinite;
+  flex-shrink: 0;
+  padding-right: 3rem;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+/* ── Scenario tabs ───────────────────────────── */
+.scenario-tab {
+  background: #F1F5F9;
+  color: #334155;
+}
+
+.scenario-tab.is-active {
+  background: #16A34A;
+  color: white;
+}
+
+/* ── Product modal open state ────────────────── */
+#product-modal.is-open {
+  display: flex;
+}
+
+/* ── Timeline vertical line ──────────────────── */
+.timeline-line {
+  transform-origin: top center;
 }
