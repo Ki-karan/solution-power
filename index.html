@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Solution Power — The Strength Behind Your Power</title>
-    <meta name="description" content="25+ years of trusted power and solar energy solutions across Mumbai and Maharashtra. UPS, Solar, Stabilizers, Lithium ESS, PaaS." />
+    <meta name="description" content="25+ years of trusted power and solar energy solutions across Maharashtra. UPS, Solar, Stabilizers, Lithium ESS, PaaS." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -12,41 +12,32 @@
   </head>
   <body class="bg-white text-dark font-body antialiased">
 
-    <!-- NAVBAR -->
+    <!-- ═══════════════════════════════════════ NAVBAR ═══ -->
     <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
       <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <!-- Logo -->
         <a href="/" class="flex items-center gap-2">
           <div class="w-8 h-8 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
             <span class="text-white font-bold text-sm">S</span>
           </div>
-          <span class="font-display font-800 text-white text-xl tracking-tight">Solution<span class="text-primary-light">Power</span></span>   
+          <span class="font-display font-extrabold text-white text-xl tracking-tight">Solution<span class="text-primary-light">Power</span></span>
         </a>
-
-        <!-- Desktop Nav -->
-        <ul class="hidden md:flex items-center gap-8 font-body text-sm font-medium text-white/80">
+        <ul class="hidden md:flex items-center gap-8 text-sm font-medium text-white/80">
           <li><a href="#solutions" class="hover:text-primary transition-colors">Solutions</a></li>
           <li><a href="#products" class="hover:text-primary transition-colors">Products</a></li>
           <li><a href="#clients" class="hover:text-primary transition-colors">Clients</a></li>
           <li><a href="#projects" class="hover:text-primary transition-colors">Projects</a></li>
           <li><a href="#about" class="hover:text-primary transition-colors">About</a></li>
         </ul>
-
-        <!-- CTA -->
         <a href="#contact" class="hidden md:inline-flex items-center gap-2 bg-primary text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-primary-light transition-colors">
           Get a Quote
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
-
-        <!-- Mobile hamburger -->
         <button id="menu-btn" class="md:hidden flex flex-col gap-1.5 p-1">
-          <span class="w-6 h-0.5 bg-dark block transition-all"></span>
-          <span class="w-6 h-0.5 bg-dark block transition-all"></span>
-          <span class="w-6 h-0.5 bg-dark block transition-all"></span>
+          <span class="w-6 h-0.5 bg-white block"></span>
+          <span class="w-6 h-0.5 bg-white block"></span>
+          <span class="w-6 h-0.5 bg-white block"></span>
         </button>
       </div>
-
-      <!-- Mobile menu -->
       <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-light px-6 py-4 flex flex-col gap-4 text-sm font-medium text-mid">
         <a href="#solutions" class="hover:text-primary">Solutions</a>
         <a href="#products" class="hover:text-primary">Products</a>
@@ -57,120 +48,692 @@
       </div>
     </nav>
 
-    <!-- HERO -->
+    <!-- ═══════════════════════════════════════ HERO ═══ -->
     <section id="hero" class="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <!-- Background -->
       <div class="absolute inset-0 bg-gradient-to-br from-dark via-slate-800 to-slate-900"></div>
-      <!-- Green glow -->
       <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-primary opacity-10 blur-[120px]"></div>
-      <!-- Blue glow -->
       <div class="absolute bottom-0 right-0 w-[400px] h-[400px] rounded-full bg-secondary opacity-10 blur-[100px]"></div>
-
       <div class="relative z-10 max-w-7xl mx-auto px-6 text-center">
-        <!-- Badge -->
         <div id="hero-badge" class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 text-white/80 text-xs font-medium px-4 py-2 rounded-full mb-6">
           <span class="w-2 h-2 rounded-full bg-primary-light animate-pulse"></span>
           Startup India Certified · 25+ Years of Trust
         </div>
-
-        <!-- Headline -->
         <h1 id="hero-headline" class="font-display font-extrabold text-white text-5xl md:text-7xl leading-tight mb-6">
           The Strength Behind<br/>
           <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-light to-secondary">Your Power</span>
         </h1>
-
-        <!-- Subheading -->
         <p id="hero-sub" class="text-white/70 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
           Solar systems, commercial UPS, lithium storage, servo stabilizers — engineered and installed for homes, hospitals, schools, and industries across Maharashtra.
         </p>
-
-        <!-- CTAs -->
         <div id="hero-ctas" class="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a href="#solutions" class="bg-primary text-white px-8 py-4 rounded-full font-semibold text-base hover:bg-primary-light transition-all hover:scale-105 flex items-center gap-2">
             Explore Solutions
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
           <a href="#contact" class="bg-white/10 backdrop-blur-sm border border-white/20 text-white px-8 py-4 rounded-full font-semibold text-base hover:bg-white/20 transition-all">
             Get a Free Quote
           </a>
         </div>
-
-        <!-- Glassmorphism stat pills -->
         <div id="hero-stats" class="flex flex-wrap justify-center gap-4 mt-16">
-          <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl px-6 py-4 text-white text-center">
+          <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl px-6 py-4 text-center">
             <div class="font-display font-extrabold text-2xl text-primary-light">35,000+</div>
             <div class="text-white/60 text-xs mt-1">Retail Clients</div>
           </div>
-          <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl px-6 py-4 text-white text-center">
+          <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl px-6 py-4 text-center">
             <div class="font-display font-extrabold text-2xl text-primary-light">50+</div>
             <div class="text-white/60 text-xs mt-1">Corporate Clients</div>
           </div>
-          <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl px-6 py-4 text-white text-center">
+          <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl px-6 py-4 text-center">
             <div class="font-display font-extrabold text-2xl text-primary-light">25+</div>
             <div class="text-white/60 text-xs mt-1">Years Experience</div>
           </div>
-          <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl px-6 py-4 text-white text-center">
+          <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl px-6 py-4 text-center">
             <div class="font-display font-extrabold text-2xl text-primary-light">10+</div>
             <div class="text-white/60 text-xs mt-1">Hospitals & Labs</div>
           </div>
         </div>
       </div>
-
-      <!-- Scroll indicator -->
       <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/40 text-xs">
         <span>Scroll</span>
         <div class="w-px h-8 bg-gradient-to-b from-white/40 to-transparent animate-bounce"></div>
       </div>
     </section>
 
-    <!-- PLACEHOLDER SECTIONS (we'll fill these next) -->
-    <section id="solutions" class="py-32 bg-light">
-      <div class="max-w-7xl mx-auto px-6 text-center">
-        <p class="text-mid font-medium">Solutions section — coming next</p>
+    <!-- ═══════════════════════════════════════ SOLUTIONS ═══ -->
+    <section id="solutions" class="py-24 bg-light">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-16">
+          <span class="sol-label inline-block text-primary font-semibold text-sm tracking-widest uppercase mb-3">What We Do</span>
+          <h2 class="sol-heading font-display font-extrabold text-dark text-4xl md:text-5xl leading-tight">Complete Power Solutions,<br/>Under One Roof</h2>
+          <p class="sol-sub text-mid text-lg mt-4 max-w-2xl mx-auto">From rooftop solar to industrial UPS — we design, supply, install, and service every power need.</p>
+        </div>
+        <div class="sol-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="sol-card group bg-white rounded-3xl p-8 border border-slate-100 hover:border-primary/30 hover:shadow-xl transition-all duration-300">
+            <div class="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <svg class="w-7 h-7 text-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+            </div>
+            <h3 class="font-display font-bold text-dark text-xl mb-2">Solar Energy Systems</h3>
+            <p class="text-mid text-sm leading-relaxed">On-grid and off-grid solar for homes, schools, hospitals and industries. Waaree & Luminous Solar panels.</p>
+            <div class="mt-6 flex items-center gap-1 text-primary text-sm font-semibold group-hover:gap-3 transition-all">Learn more <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+          </div>
+          <div class="sol-card group bg-white rounded-3xl p-8 border border-slate-100 hover:border-secondary/30 hover:shadow-xl transition-all duration-300">
+            <div class="w-14 h-14 rounded-2xl bg-secondary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <svg class="w-7 h-7 text-secondary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/><line x1="12" y1="12" x2="12" y2="16"/><line x1="10" y1="14" x2="14" y2="14"/></svg>
+            </div>
+            <h3 class="font-display font-bold text-dark text-xl mb-2">Commercial & Industrial UPS</h3>
+            <p class="text-mid text-sm leading-relaxed">Online UPS 1–500 KVA, Lift UPS 6–30 KVA. Schneider, APC, Eaton, Vertiv, Fuji Electric, Microtek.</p>
+            <div class="mt-6 flex items-center gap-1 text-primary text-sm font-semibold group-hover:gap-3 transition-all">Learn more <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+          </div>
+          <div class="sol-card group bg-white rounded-3xl p-8 border border-slate-100 hover:border-amber-400/30 hover:shadow-xl transition-all duration-300">
+            <div class="w-14 h-14 rounded-2xl bg-amber-400/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <svg class="w-7 h-7 text-amber-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </div>
+            <h3 class="font-display font-bold text-dark text-xl mb-2">Lithium Energy Storage</h3>
+            <p class="text-mid text-sm leading-relaxed">Power Oxigen lithium ESS for long-duration backup and solar storage. Commercial and grid-scale sizing.</p>
+            <div class="mt-6 flex items-center gap-1 text-primary text-sm font-semibold group-hover:gap-3 transition-all">Learn more <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+          </div>
+          <div class="sol-card group bg-white rounded-3xl p-8 border border-slate-100 hover:border-violet-400/30 hover:shadow-xl transition-all duration-300">
+            <div class="w-14 h-14 rounded-2xl bg-violet-400/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <svg class="w-7 h-7 text-violet-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+            </div>
+            <h3 class="font-display font-bold text-dark text-xl mb-2">Servo Voltage Stabilizers</h3>
+            <p class="text-mid text-sm leading-relaxed">Power Gate brand, self-manufactured. 10–1000 KVA. Protects CNC machines, pharma, textile mills.</p>
+            <div class="mt-6 flex items-center gap-1 text-primary text-sm font-semibold group-hover:gap-3 transition-all">Learn more <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+          </div>
+          <div class="sol-card group bg-gradient-to-br from-primary to-secondary rounded-3xl p-8 hover:shadow-xl transition-all duration-300 sm:col-span-2 lg:col-span-1">
+            <div class="w-14 h-14 rounded-2xl bg-white/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <svg class="w-7 h-7 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div class="inline-block bg-white/20 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">FEATURED</div>
+            <h3 class="font-display font-bold text-white text-xl mb-2">Power as a Service (PaaS)</h3>
+            <p class="text-white/80 text-sm leading-relaxed">Zero upfront investment. We install, own and maintain. You pay a fixed monthly fee and enjoy uninterrupted power.</p>
+            <div class="mt-6 flex items-center gap-1 text-white text-sm font-semibold group-hover:gap-3 transition-all">Learn more <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+          </div>
+          <div class="sol-card group bg-white rounded-3xl p-8 border border-slate-100 hover:border-slate-300 hover:shadow-xl transition-all duration-300">
+            <div class="w-14 h-14 rounded-2xl bg-slate-100 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <svg class="w-7 h-7 text-slate-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3 class="font-display font-bold text-dark text-xl mb-2">AMC & Service Contracts</h3>
+            <p class="text-mid text-sm leading-relaxed">Annual maintenance for UPS, batteries, solar systems and stabilizers. Scheduled servicing + emergency support.</p>
+            <div class="mt-6 flex items-center gap-1 text-primary text-sm font-semibold group-hover:gap-3 transition-all">Learn more <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="products" class="py-32 bg-white">
-      <div class="max-w-7xl mx-auto px-6 text-center">
-        <p class="text-mid font-medium">Products section — coming next</p>
+    <!-- ═══════════════════════════════════════ WHO WE SERVE ═══ -->
+    <section id="scenarios" class="py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-16">
+          <span class="inline-block text-primary font-semibold text-sm tracking-widest uppercase mb-3">Who We Serve</span>
+          <h2 class="font-display font-extrabold text-dark text-4xl md:text-5xl leading-tight">Built for Every Scale,<br/>Every Sector</h2>
+          <p class="text-mid text-lg mt-4 max-w-2xl mx-auto">Select your sector to see how we power your facility.</p>
+        </div>
+        <div class="flex flex-col lg:flex-row gap-8">
+          <!-- Tabs -->
+          <div class="flex lg:flex-col gap-3 overflow-x-auto lg:overflow-visible lg:w-64 shrink-0">
+            <button class="scenario-tab active-tab flex items-center gap-3 px-5 py-4 rounded-2xl text-left transition-all whitespace-nowrap" data-scene="residential">
+              <span class="text-2xl">🏠</span>
+              <div><div class="font-semibold text-sm">Residential</div><div class="text-xs text-mid hidden lg:block">Homes & apartments</div></div>
+            </button>
+            <button class="scenario-tab flex items-center gap-3 px-5 py-4 rounded-2xl text-left transition-all whitespace-nowrap" data-scene="school">
+              <span class="text-2xl">🏫</span>
+              <div><div class="font-semibold text-sm">Schools</div><div class="text-xs text-mid hidden lg:block">Educational institutions</div></div>
+            </button>
+            <button class="scenario-tab flex items-center gap-3 px-5 py-4 rounded-2xl text-left transition-all whitespace-nowrap" data-scene="hospital">
+              <span class="text-2xl">🏥</span>
+              <div><div class="font-semibold text-sm">Hospitals</div><div class="text-xs text-mid hidden lg:block">Critical care facilities</div></div>
+            </button>
+            <button class="scenario-tab flex items-center gap-3 px-5 py-4 rounded-2xl text-left transition-all whitespace-nowrap" data-scene="commercial">
+              <span class="text-2xl">🏢</span>
+              <div><div class="font-semibold text-sm">Commercial</div><div class="text-xs text-mid hidden lg:block">Offices & showrooms</div></div>
+            </button>
+            <button class="scenario-tab flex items-center gap-3 px-5 py-4 rounded-2xl text-left transition-all whitespace-nowrap" data-scene="industrial">
+              <span class="text-2xl">🏭</span>
+              <div><div class="font-semibold text-sm">Industrial</div><div class="text-xs text-mid hidden lg:block">Factories & plants</div></div>
+            </button>
+          </div>
+          <!-- Scene display -->
+          <div class="flex-1 bg-light rounded-3xl overflow-hidden min-h-[420px] relative">
+            <div id="scene-residential" class="scene-panel absolute inset-0 flex flex-col items-center justify-center p-10 text-center">
+              <div class="text-6xl mb-4">🏠</div>
+              <h3 class="font-display font-bold text-dark text-2xl mb-3">Residential Power Solutions</h3>
+              <p class="text-mid max-w-md">Rooftop solar panels, home UPS with lithium battery backup. Power your AC, fridge, lights and appliances 24/7 — even during grid failures.</p>
+              <div class="flex flex-wrap justify-center gap-3 mt-6">
+                <span class="bg-white border border-slate-200 text-dark text-xs font-medium px-3 py-1.5 rounded-full">Rooftop Solar</span>
+                <span class="bg-white border border-slate-200 text-dark text-xs font-medium px-3 py-1.5 rounded-full">Home UPS</span>
+                <span class="bg-white border border-slate-200 text-dark text-xs font-medium px-3 py-1.5 rounded-full">Lithium Battery</span>
+                <span class="bg-white border border-slate-200 text-dark text-xs font-medium px-3 py-1.5 rounded-full">Net Metering</span>
+              </div>
+              <p class="text-xs text-mid/60 mt-8 italic">3D interactive scene coming soon — Spline integration in progress</p>
+            </div>
+            <div id="scene-school" class="scene-panel absolute inset-0 flex flex-col items-center justify-center p-10 text-center hidden">
+              <div class="text-6xl mb-4">🏫</div>
+              <h3 class="font-display font-bold text-dark text-2xl mb-3">Schools & Educational Institutions</h3>
+              <p class="text-mid max-w-md">Rooftop solar arrays powering classrooms, computer labs and lighting. UPS backup ensures uninterrupted learning even during power cuts.</p>
+              <div class="flex flex-wrap justify-center gap-3 mt-6">
+                <span class="bg-white border border-slate-200 text-dark text-xs font-medium px-3 py-1.5 rounded-full">Rooftop Solar</span>
+                <span class="bg-white border border-slate-200 text-dark text-xs font-medium px-3 py-1.5 rounded-full">Online UPS</span>
+                <span class="bg-white border border-slate-200 text-dark text-xs font-medium px-3 py-1.5 rounded-full">Smart Metering</span>
+              </div>
+              <p class="text-xs text-mid/60 mt-8 italic">3D interactive scene coming soon</p>
+            </div>
+            <div id="scene-hospital" class="scene-panel absolute inset-0 flex flex-col items-center justify-center p-10 text-center hidden">
+              <div class="text-6xl mb-4">🏥</div>
+              <h3 class="font-display font-bold text-dark text-2xl mb-3">Hospitals & Critical Care</h3>
+              <p class="text-mid max-w-md">Zero-transfer-time UPS for ICU and operation theatres. Critical load priority circuits. Lithium ESS for extended backup — lives depend on it.</p>
+              <div class="flex flex-wrap justify-center gap-3 mt-6">
+                <span class="bg-white border border-slate-200 text-dark text-xs font-medium px-3 py-1.5 rounded-full">Online UPS</span>
+                <span class="bg-white border border-slate-200 text-dark text-xs font-medium px-3 py-1.5 rounded-full">Critical Load Priority</span>
+                <span class="bg-white border border-slate-200 text-dark text-xs font-medium px-3 py-1.5 rounded-full">Lithium ESS</span>
+                <span class="bg-white border border-slate-200 text-dark text-xs font-medium px-3 py-1.5 rounded-full">DG Sync</span>
+              </div>
+              <p class="text-xs text-mid/60 mt-8 italic">3D interactive scene coming soon</p>
+            </div>
+            <div id="scene-commercial" class="scene-panel absolute inset-0 flex flex-col items-center justify-center p-10 text-center hidden">
+              <div class="text-6xl mb-4">🏢</div>
+              <h3 class="font-display font-bold text-dark text-2xl mb-3">Commercial Offices & Showrooms</h3>
+              <p class="text-mid max-w-md">Rooftop or facade solar, commercial UPS for servers and workstations, servo stabilizers for sensitive equipment. Reduce electricity bills by up to 60%.</p>
+              <div class="flex flex-wrap justify-center gap-3 mt-6">
+                <span class="bg-white border border-slate-200 text-dark text-xs font-medium px-3 py-1.5 rounded-full">On-Grid Solar</span>
+                <span class="bg-white border border-slate-200 text-dark text-xs font-medium px-3 py-1.5 rounded-full">Commercial UPS</span>
+                <span class="bg-white border border-slate-200 text-dark text-xs font-medium px-3 py-1.5 rounded-full">Servo Stabilizer</span>
+              </div>
+              <p class="text-xs text-mid/60 mt-8 italic">3D interactive scene coming soon</p>
+            </div>
+            <div id="scene-industrial" class="scene-panel absolute inset-0 flex flex-col items-center justify-center p-10 text-center hidden">
+              <div class="text-6xl mb-4">🏭</div>
+              <h3 class="font-display font-bold text-dark text-2xl mb-3">Industrial & Manufacturing Plants</h3>
+              <p class="text-mid max-w-md">Ground-mount solar farms, large UPS for continuous production, servo stabilizers 10–1000 KVA for CNC, pharma and textile machinery.</p>
+              <div class="flex flex-wrap justify-center gap-3 mt-6">
+                <span class="bg-white border border-slate-200 text-dark text-xs font-medium px-3 py-1.5 rounded-full">Ground Mount Solar</span>
+                <span class="bg-white border border-slate-200 text-dark text-xs font-medium px-3 py-1.5 rounded-full">Industrial UPS</span>
+                <span class="bg-white border border-slate-200 text-dark text-xs font-medium px-3 py-1.5 rounded-full">1000 KVA Stabilizer</span>
+                <span class="bg-white border border-slate-200 text-dark text-xs font-medium px-3 py-1.5 rounded-full">Lithium ESS</span>
+              </div>
+              <p class="text-xs text-mid/60 mt-8 italic">3D interactive scene coming soon</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="clients" class="py-32 bg-light">
-      <div class="max-w-7xl mx-auto px-6 text-center">
-        <p class="text-mid font-medium">Clients section — coming next</p>
+    <!-- ═══════════════════════════════════════ HOW SOLAR WORKS ═══ -->
+    <section id="how-it-works" class="py-24 bg-light">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-16">
+          <span class="inline-block text-primary font-semibold text-sm tracking-widest uppercase mb-3">The Process</span>
+          <h2 class="font-display font-extrabold text-dark text-4xl md:text-5xl">How Solar Works</h2>
+        </div>
+        <div class="relative">
+          <!-- Flow line (desktop) -->
+          <div class="hidden md:block absolute top-12 left-[10%] right-[10%] h-0.5 bg-gradient-to-r from-primary via-secondary to-primary opacity-30"></div>
+          <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+            <div class="hiw-step flex flex-col items-center text-center">
+              <div class="w-24 h-24 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center mb-4 shadow-lg shadow-amber-400/30 relative z-10">
+                <svg class="w-10 h-10 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+              </div>
+              <h4 class="font-display font-bold text-dark mb-2">Sunlight</h4>
+              <p class="text-mid text-xs leading-relaxed">Solar panels absorb sunlight, generating DC electricity</p>
+            </div>
+            <div class="hiw-step flex flex-col items-center text-center">
+              <div class="w-24 h-24 rounded-full bg-gradient-to-br from-primary to-green-600 flex items-center justify-center mb-4 shadow-lg shadow-primary/30 relative z-10">
+                <svg class="w-10 h-10 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+              </div>
+              <h4 class="font-display font-bold text-dark mb-2">Solar Panels</h4>
+              <p class="text-mid text-xs leading-relaxed">Panels convert sunlight to DC power and send it to the inverter</p>
+            </div>
+            <div class="hiw-step flex flex-col items-center text-center">
+              <div class="w-24 h-24 rounded-full bg-gradient-to-br from-secondary to-blue-700 flex items-center justify-center mb-4 shadow-lg shadow-secondary/30 relative z-10">
+                <svg class="w-10 h-10 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+              </div>
+              <h4 class="font-display font-bold text-dark mb-2">Inverter</h4>
+              <p class="text-mid text-xs leading-relaxed">Converts DC to AC electricity for use in your home or business</p>
+            </div>
+            <div class="hiw-step flex flex-col items-center text-center">
+              <div class="w-24 h-24 rounded-full bg-gradient-to-br from-violet-500 to-purple-700 flex items-center justify-center mb-4 shadow-lg shadow-violet-500/30 relative z-10">
+                <svg class="w-10 h-10 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg>
+              </div>
+              <h4 class="font-display font-bold text-dark mb-2">Battery Storage</h4>
+              <p class="text-mid text-xs leading-relaxed">Excess energy stored in lithium batteries for night or cloudy days</p>
+            </div>
+            <div class="hiw-step flex flex-col items-center text-center">
+              <div class="w-24 h-24 rounded-full bg-gradient-to-br from-slate-600 to-slate-800 flex items-center justify-center mb-4 shadow-lg shadow-slate-600/30 relative z-10">
+                <svg class="w-10 h-10 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              </div>
+              <h4 class="font-display font-bold text-dark mb-2">Your Facility</h4>
+              <p class="text-mid text-xs leading-relaxed">Clean, uninterrupted power delivered 24/7 to all your loads</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="projects" class="py-32 bg-white">
-      <div class="max-w-7xl mx-auto px-6 text-center">
-        <p class="text-mid font-medium">Projects section — coming next</p>
+    <!-- ═══════════════════════════════════════ PaaS ═══ -->
+    <section id="paas" class="py-24 bg-dark">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-16">
+          <span class="inline-block text-primary-light font-semibold text-sm tracking-widest uppercase mb-3">Power as a Service</span>
+          <h2 class="font-display font-extrabold text-white text-4xl md:text-5xl">No Investment. Just Power.</h2>
+          <p class="text-white/60 text-lg mt-4 max-w-2xl mx-auto">Why buy when you can subscribe? Compare the difference.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <!-- CAPEX -->
+          <div class="paas-card bg-white/5 border border-white/10 rounded-3xl p-8">
+            <div class="inline-block bg-red-500/20 text-red-400 text-xs font-bold px-3 py-1 rounded-full mb-6">CAPEX MODEL — Traditional</div>
+            <div class="space-y-4">
+              <div class="flex justify-between items-center py-3 border-b border-white/10">
+                <span class="text-white/60 text-sm">Upfront Cost (10 KVA UPS)</span>
+                <span class="text-white font-semibold">₹2,00,000</span>
+              </div>
+              <div class="flex justify-between items-center py-3 border-b border-white/10">
+                <span class="text-white/60 text-sm">Warranty</span>
+                <span class="text-red-400 font-semibold">1–2 years only</span>
+              </div>
+              <div class="flex justify-between items-center py-3 border-b border-white/10">
+                <span class="text-white/60 text-sm">Equipment Life</span>
+                <span class="text-red-400 font-semibold">Max 5 years</span>
+              </div>
+              <div class="flex justify-between items-center py-3 border-b border-white/10">
+                <span class="text-white/60 text-sm">Maintenance Cost</span>
+                <span class="text-red-400 font-semibold">Very High</span>
+              </div>
+              <div class="flex justify-between items-center py-3 border-b border-white/10">
+                <span class="text-white/60 text-sm">Disposal Compliance</span>
+                <span class="text-red-400 font-semibold">Very Strict</span>
+              </div>
+              <div class="flex justify-between items-center py-3">
+                <span class="text-white/60 text-sm">Spares & Replacement</span>
+                <span class="text-red-400 font-semibold">Substantial</span>
+              </div>
+            </div>
+          </div>
+          <!-- OPEX / PaaS -->
+          <div class="paas-card bg-gradient-to-br from-primary/20 to-secondary/20 border border-primary/30 rounded-3xl p-8 relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-primary opacity-10 rounded-full blur-2xl"></div>
+            <div class="inline-block bg-primary/30 text-primary-light text-xs font-bold px-3 py-1 rounded-full mb-6">OPEX MODEL — PaaS ✓</div>
+            <div class="space-y-4 relative z-10">
+              <div class="flex justify-between items-center py-3 border-b border-white/10">
+                <span class="text-white/60 text-sm">Monthly Lease Rent (10 KVA)</span>
+                <span class="text-primary-light font-semibold">₹10,000/month</span>
+              </div>
+              <div class="flex justify-between items-center py-3 border-b border-white/10">
+                <span class="text-white/60 text-sm">Warranty</span>
+                <span class="text-primary-light font-semibold">Unlimited</span>
+              </div>
+              <div class="flex justify-between items-center py-3 border-b border-white/10">
+                <span class="text-white/60 text-sm">Equipment Life</span>
+                <span class="text-primary-light font-semibold">Indefinite</span>
+              </div>
+              <div class="flex justify-between items-center py-3 border-b border-white/10">
+                <span class="text-white/60 text-sm">Maintenance Cost</span>
+                <span class="text-primary-light font-semibold">Borne by us</span>
+              </div>
+              <div class="flex justify-between items-center py-3 border-b border-white/10">
+                <span class="text-white/60 text-sm">Disposal Compliance</span>
+                <span class="text-primary-light font-semibold">Done by us</span>
+              </div>
+              <div class="flex justify-between items-center py-3">
+                <span class="text-white/60 text-sm">Spares & Replacement</span>
+                <span class="text-primary-light font-semibold">Borne by us</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="text-center text-white/40 text-sm mt-10">Battery equipment owned and maintained by Garg Elecserv Technologies Pvt. Ltd.</p>
       </div>
     </section>
 
-    <section id="about" class="py-32 bg-light">
-      <div class="max-w-7xl mx-auto px-6 text-center">
-        <p class="text-mid font-medium">About / Journey section — coming next</p>
+    <!-- ═══════════════════════════════════════ CLIENTS MARQUEE ═══ -->
+    <section id="clients" class="py-20 bg-white overflow-hidden">
+      <div class="max-w-7xl mx-auto px-6 text-center mb-12">
+        <span class="inline-block text-primary font-semibold text-sm tracking-widest uppercase mb-3">Our Clients</span>
+        <h2 class="font-display font-extrabold text-dark text-4xl md:text-5xl">Trusted by Industry Leaders</h2>
+      </div>
+      <div class="relative">
+        <div class="marquee-wrapper flex overflow-hidden">
+          <div class="marquee-track flex items-center gap-12 shrink-0">
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Godrej</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Colgate</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">IndianOil</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Haier</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Boroplast</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Viva Group</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Peter England</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Evolute Cleantech</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Luthra Pneumsys</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Dr. Palaskar Hospital</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Rustomjee</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Klub Fox</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Salasar Terminals</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Optron Industries</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">JK Computer</span>
+          </div>
+          <!-- Duplicate for seamless loop -->
+          <div class="marquee-track flex items-center gap-12 shrink-0" aria-hidden="true">
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Godrej</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Colgate</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">IndianOil</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Haier</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Boroplast</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Viva Group</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Peter England</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Evolute Cleantech</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Luthra Pneumsys</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Dr. Palaskar Hospital</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Rustomjee</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Klub Fox</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Salasar Terminals</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">Optron Industries</span>
+            <span class="text-dark/70 font-display font-bold text-xl whitespace-nowrap">JK Computer</span>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="contact" class="py-32 bg-dark">
-      <div class="max-w-7xl mx-auto px-6 text-center">
-        <p class="text-white/40 font-medium">Contact section — coming next</p>
+    <!-- ═══════════════════════════════════════ BRAND ASSOCIATIONS ═══ -->
+    <section id="brands" class="py-20 bg-light">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-12">
+          <span class="inline-block text-primary font-semibold text-sm tracking-widest uppercase mb-3">Our Partners</span>
+          <h2 class="font-display font-extrabold text-dark text-4xl">Authorised Dealer & Installer</h2>
+        </div>
+        <div class="brands-grid grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-4">
+          <div class="brand-item bg-white rounded-2xl px-4 py-5 flex items-center justify-center border border-slate-100 hover:shadow-md transition-all hover:-translate-y-0.5">
+            <span class="font-display font-bold text-dark text-sm text-center">Exide</span>
+          </div>
+          <div class="brand-item bg-white rounded-2xl px-4 py-5 flex items-center justify-center border border-slate-100 hover:shadow-md transition-all hover:-translate-y-0.5">
+            <span class="font-display font-bold text-dark text-sm text-center">Luminous</span>
+          </div>
+          <div class="brand-item bg-white rounded-2xl px-4 py-5 flex items-center justify-center border border-slate-100 hover:shadow-md transition-all hover:-translate-y-0.5">
+            <span class="font-display font-bold text-dark text-sm text-center">Schneider</span>
+          </div>
+          <div class="brand-item bg-white rounded-2xl px-4 py-5 flex items-center justify-center border border-slate-100 hover:shadow-md transition-all hover:-translate-y-0.5">
+            <span class="font-display font-bold text-dark text-sm text-center">APC</span>
+          </div>
+          <div class="brand-item bg-white rounded-2xl px-4 py-5 flex items-center justify-center border border-slate-100 hover:shadow-md transition-all hover:-translate-y-0.5">
+            <span class="font-display font-bold text-dark text-sm text-center">Eaton</span>
+          </div>
+          <div class="brand-item bg-white rounded-2xl px-4 py-5 flex items-center justify-center border border-slate-100 hover:shadow-md transition-all hover:-translate-y-0.5">
+            <span class="font-display font-bold text-dark text-sm text-center">Vertiv</span>
+          </div>
+          <div class="brand-item bg-white rounded-2xl px-4 py-5 flex items-center justify-center border border-slate-100 hover:shadow-md transition-all hover:-translate-y-0.5">
+            <span class="font-display font-bold text-dark text-sm text-center">Waaree</span>
+          </div>
+          <div class="brand-item bg-white rounded-2xl px-4 py-5 flex items-center justify-center border border-slate-100 hover:shadow-md transition-all hover:-translate-y-0.5">
+            <span class="font-display font-bold text-dark text-sm text-center">Microtek</span>
+          </div>
+          <div class="brand-item bg-white rounded-2xl px-4 py-5 flex items-center justify-center border border-slate-100 hover:shadow-md transition-all hover:-translate-y-0.5">
+            <span class="font-display font-bold text-dark text-sm text-center">Fuji Electric</span>
+          </div>
+          <div class="brand-item bg-white rounded-2xl px-4 py-5 flex items-center justify-center border border-slate-100 hover:shadow-md transition-all hover:-translate-y-0.5">
+            <span class="font-display font-bold text-dark text-sm text-center">Amaron Quanta</span>
+          </div>
+          <div class="brand-item bg-white rounded-2xl px-4 py-5 flex items-center justify-center border border-slate-100 hover:shadow-md transition-all hover:-translate-y-0.5">
+            <span class="font-display font-bold text-dark text-sm text-center">Ashapower</span>
+          </div>
+          <div class="brand-item bg-white rounded-2xl px-4 py-5 flex items-center justify-center border border-slate-100 hover:shadow-md transition-all hover:-translate-y-0.5">
+            <span class="font-display font-bold text-dark text-sm text-center">iPower</span>
+          </div>
+        </div>
+        <div class="flex flex-wrap justify-center gap-4 mt-8">
+          <div class="brand-item bg-gradient-to-br from-primary to-secondary rounded-2xl px-6 py-5 flex items-center gap-3">
+            <svg class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            <span class="font-display font-bold text-white text-sm">Power Oxigen</span>
+          </div>
+          <div class="brand-item bg-gradient-to-br from-secondary to-dark rounded-2xl px-6 py-5 flex items-center gap-3">
+            <svg class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+            <span class="font-display font-bold text-white text-sm">Power Gate Solution</span>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- FOOTER -->
-    <footer class="bg-dark border-t border-white/10 py-8">
-      <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-white/40 text-sm">
-        <p>© 2025 Garg Elecserv Technologies Pvt. Ltd. All rights reserved.</p>
-        <p>hello@solutionpower.in · +91 93203 47111</p>
+    <!-- ═══════════════════════════════════════ PROJECTS ═══ -->
+    <section id="projects" class="py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-16">
+          <span class="inline-block text-primary font-semibold text-sm tracking-widest uppercase mb-3">Case Studies</span>
+          <h2 class="font-display font-extrabold text-dark text-4xl md:text-5xl">Projects That Speak</h2>
+        </div>
+        <div class="projects-grid grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="project-card group rounded-3xl overflow-hidden border border-slate-100 hover:shadow-2xl transition-all duration-500">
+            <div class="h-56 bg-gradient-to-br from-secondary/20 to-primary/20 flex items-center justify-center relative overflow-hidden">
+              <div class="absolute inset-0 bg-gradient-to-br from-dark/60 to-dark/20"></div>
+              <div class="relative z-10 text-center">
+                <div class="text-5xl mb-2">⚡</div>
+                <span class="text-white font-display font-bold text-lg">Lithium ESS + UPS</span>
+              </div>
+            </div>
+            <div class="p-8">
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-secondary/10 text-secondary text-xs font-semibold px-3 py-1 rounded-full">24kWh ESS</span>
+                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">25 KVA UPS</span>
+                <span class="bg-slate-100 text-slate-600 text-xs font-semibold px-3 py-1 rounded-full">Luminous</span>
+              </div>
+              <h3 class="font-display font-bold text-dark text-xl mb-2">India's First Luminous OPTIMUS MAX + Power Oxigen ESS</h3>
+              <p class="text-mid text-sm leading-relaxed">Installed Luminous India's first OPTIMUS MAX 25kVA UPS integrated with Power Oxigen's 24kWh Lithium Energy Storage System — a landmark commercial installation.</p>
+              <div class="mt-6 flex items-center gap-4 text-xs text-mid/60">
+                <span>Brands: Luminous · Power Oxigen</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card group rounded-3xl overflow-hidden border border-slate-100 hover:shadow-2xl transition-all duration-500">
+            <div class="h-56 bg-gradient-to-br from-amber-400/20 to-primary/20 flex items-center justify-center relative overflow-hidden">
+              <div class="absolute inset-0 bg-gradient-to-br from-dark/60 to-dark/20"></div>
+              <div class="relative z-10 text-center">
+                <div class="text-5xl mb-2">🚌</div>
+                <span class="text-white font-display font-bold text-lg">38 Solar Bus Shelters</span>
+              </div>
+            </div>
+            <div class="p-8">
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-amber-400/10 text-amber-600 text-xs font-semibold px-3 py-1 rounded-full">Off-Grid Solar</span>
+                <span class="bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">12V DC</span>
+                <span class="bg-slate-100 text-slate-600 text-xs font-semibold px-3 py-1 rounded-full">Panvel City</span>
+              </div>
+              <h3 class="font-display font-bold text-dark text-xl mb-2">38 Solar-Powered Bus Shelters — Panvel Municipal Corporation</h3>
+              <p class="text-mid text-sm leading-relaxed">Designed, installed and commissioned 38 off-grid solar bus shelters across Panvel City. Ashapower MPPT chargers, Luminous 590W panels, Exide Solar AGM VRLA batteries. Completed in 6 months 6 days.</p>
+              <div class="mt-6 flex items-center gap-4 text-xs text-mid/60">
+                <span>Brands: Exide · Luminous · Ashapower · Power Gate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ JOURNEY / ABOUT ═══ -->
+    <section id="about" class="py-24 bg-light">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-16">
+          <span class="inline-block text-primary font-semibold text-sm tracking-widest uppercase mb-3">Our Story</span>
+          <h2 class="font-display font-extrabold text-dark text-4xl md:text-5xl">25 Years in the Making</h2>
+          <p class="text-mid text-lg mt-4 max-w-2xl mx-auto">Founded by Mr. Amar S. Garg, an engineer who came to Mumbai with a dream.</p>
+        </div>
+        <div class="relative max-w-3xl mx-auto">
+          <div class="absolute left-6 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary via-secondary to-primary opacity-30"></div>
+          <div class="space-y-10">
+            <div class="timeline-item flex gap-8 items-start">
+              <div class="shrink-0 w-12 h-12 rounded-full bg-primary flex items-center justify-center text-white font-bold text-xs relative z-10">2006</div>
+              <div class="bg-white rounded-2xl p-6 flex-1 shadow-sm border border-slate-100">
+                <h4 class="font-display font-bold text-dark mb-1">The Beginning</h4>
+                <p class="text-mid text-sm">Mr. Amar S. Garg started Solution Enterprises as a small office in Mumbai — the city of dreams.</p>
+              </div>
+            </div>
+            <div class="timeline-item flex gap-8 items-start">
+              <div class="shrink-0 w-12 h-12 rounded-full bg-secondary flex items-center justify-center text-white font-bold text-xs relative z-10">2007</div>
+              <div class="bg-white rounded-2xl p-6 flex-1 shadow-sm border border-slate-100">
+                <h4 class="font-display font-bold text-dark mb-1">Distribution & Dealership</h4>
+                <p class="text-mid text-sm">Became authorised distributor and dealer for Escort, Mahindra, Bajaj, Microtek, Luminous, Exide and many more.</p>
+              </div>
+            </div>
+            <div class="timeline-item flex gap-8 items-start">
+              <div class="shrink-0 w-12 h-12 rounded-full bg-amber-500 flex items-center justify-center text-white font-bold text-xs relative z-10">2013</div>
+              <div class="bg-white rounded-2xl p-6 flex-1 shadow-sm border border-slate-100">
+                <h4 class="font-display font-bold text-dark mb-1">Power Oxigen Brand Born</h4>
+                <p class="text-mid text-sm">Built the Power Oxigen tubular battery brand — became the most trusted brand in Vasai-Virar.</p>
+              </div>
+            </div>
+            <div class="timeline-item flex gap-8 items-start">
+              <div class="shrink-0 w-12 h-12 rounded-full bg-rose-500 flex items-center justify-center text-white font-bold text-xs relative z-10">2016</div>
+              <div class="bg-white rounded-2xl p-6 flex-1 shadow-sm border border-slate-100">
+                <h4 class="font-display font-bold text-dark mb-1">Rental Power Backup Introduced</h4>
+                <p class="text-mid text-sm">Launched rental power backup solutions (PaaS model) — switched 70% of business to commercial UPS.</p>
+              </div>
+            </div>
+            <div class="timeline-item flex gap-8 items-start">
+              <div class="shrink-0 w-12 h-12 rounded-full bg-violet-500 flex items-center justify-center text-white font-bold text-xs relative z-10">2021</div>
+              <div class="bg-white rounded-2xl p-6 flex-1 shadow-sm border border-slate-100">
+                <h4 class="font-display font-bold text-dark mb-1">Power Gate Stabilizers Launched</h4>
+                <p class="text-mid text-sm">Introduced self-manufactured Servo Voltage Stabilizers under the Power Gate Solution brand.</p>
+              </div>
+            </div>
+            <div class="timeline-item flex gap-8 items-start">
+              <div class="shrink-0 w-12 h-12 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white font-bold text-xs relative z-10">2024</div>
+              <div class="bg-white rounded-2xl p-6 flex-1 shadow-sm border border-slate-100 ring-2 ring-primary/30">
+                <h4 class="font-display font-bold text-dark mb-1">Most Trusted — 50+ Corporate Clients</h4>
+                <p class="text-mid text-sm">Became the best and most trusted company in Vasai-Virar with 50+ corporate clients, Startup India certified. And the journey goes on.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ CONTACT ═══ -->
+    <section id="contact" class="py-24 bg-dark">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+          <div>
+            <span class="inline-block text-primary-light font-semibold text-sm tracking-widest uppercase mb-3">Get in Touch</span>
+            <h2 class="font-display font-extrabold text-white text-4xl md:text-5xl mb-6">Let's Power Your Facility</h2>
+            <p class="text-white/60 text-lg mb-10">Tell us about your requirement and we'll get back within 24 hours with the right solution.</p>
+            <div class="space-y-6">
+              <div class="flex items-center gap-4">
+                <div class="w-12 h-12 rounded-2xl bg-white/10 flex items-center justify-center shrink-0">
+                  <svg class="w-5 h-5 text-primary-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 7.1a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.18v2.74z"/></svg>
+                </div>
+                <div>
+                  <div class="text-white/40 text-xs mb-1">Phone</div>
+                  <div class="text-white font-semibold">+91 93203 47111 · +91 92255 47111</div>
+                </div>
+              </div>
+              <div class="flex items-center gap-4">
+                <div class="w-12 h-12 rounded-2xl bg-white/10 flex items-center justify-center shrink-0">
+                  <svg class="w-5 h-5 text-primary-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div>
+                  <div class="text-white/40 text-xs mb-1">Email</div>
+                  <div class="text-white font-semibold">hello@solutionpower.in</div>
+                </div>
+              </div>
+              <div class="flex items-start gap-4">
+                <div class="w-12 h-12 rounded-2xl bg-white/10 flex items-center justify-center shrink-0">
+                  <svg class="w-5 h-5 text-primary-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <div class="text-white/40 text-xs mb-1">Address</div>
+                  <div class="text-white font-semibold leading-relaxed">Office No. 10, Rushabh Apartment,<br/>Madhuban Township, Vasai East,<br/>Palghar – 401208, Maharashtra</div>
+                </div>
+              </div>
+            </div>
+            <!-- Startup India badge -->
+            <div class="mt-10 inline-flex items-center gap-3 bg-white/5 border border-white/10 rounded-2xl px-5 py-4">
+              <div class="w-10 h-10 rounded-full bg-[#FF6B00]/20 flex items-center justify-center">
+                <span class="text-[#FF6B00] font-bold text-xs">#SI</span>
+              </div>
+              <div>
+                <div class="text-white text-sm font-semibold">Startup India Certified</div>
+                <div class="text-white/40 text-xs">DIPP210097 · Renewable Energy Sector</div>
+              </div>
+            </div>
+          </div>
+          <!-- Form -->
+          <div class="bg-white/5 border border-white/10 rounded-3xl p-8">
+            <h3 class="font-display font-bold text-white text-2xl mb-6">Get a Free Quote</h3>
+            <div class="space-y-4">
+              <div class="grid grid-cols-2 gap-4">
+                <div>
+                  <label class="text-white/60 text-xs font-medium block mb-2">Your Name</label>
+                  <input type="text" placeholder="Rahul Sharma" class="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/30 text-sm focus:outline-none focus:border-primary transition-colors" />
+                </div>
+                <div>
+                  <label class="text-white/60 text-xs font-medium block mb-2">Phone Number</label>
+                  <input type="tel" placeholder="+91 98765 43210" class="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/30 text-sm focus:outline-none focus:border-primary transition-colors" />
+                </div>
+              </div>
+              <div>
+                <label class="text-white/60 text-xs font-medium block mb-2">Email Address</label>
+                <input type="email" placeholder="rahul@company.com" class="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/30 text-sm focus:outline-none focus:border-primary transition-colors" />
+              </div>
+              <div class="grid grid-cols-2 gap-4">
+                <div>
+                  <label class="text-white/60 text-xs font-medium block mb-2">Client Type</label>
+                  <select class="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-primary transition-colors">
+                    <option value="" class="bg-dark">Select type</option>
+                    <option value="residential" class="bg-dark">Residential</option>
+                    <option value="school" class="bg-dark">School / College</option>
+                    <option value="hospital" class="bg-dark">Hospital / Lab</option>
+                    <option value="commercial" class="bg-dark">Commercial Office</option>
+                    <option value="industrial" class="bg-dark">Industrial / Factory</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="text-white/60 text-xs font-medium block mb-2">Inquiry Type</label>
+                  <select class="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-primary transition-colors">
+                    <option value="" class="bg-dark">Select inquiry</option>
+                    <option value="solar" class="bg-dark">Solar System</option>
+                    <option value="ups" class="bg-dark">UPS / Inverter</option>
+                    <option value="stabilizer" class="bg-dark">Servo Stabilizer</option>
+                    <option value="ess" class="bg-dark">Lithium ESS</option>
+                    <option value="paas" class="bg-dark">PaaS / Rental</option>
+                    <option value="amc" class="bg-dark">AMC / Service</option>
+                  </select>
+                </div>
+              </div>
+              <div>
+                <label class="text-white/60 text-xs font-medium block mb-2">Message</label>
+                <textarea rows="4" placeholder="Tell us about your power requirement..." class="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/30 text-sm focus:outline-none focus:border-primary transition-colors resize-none"></textarea>
+              </div>
+              <button id="submit-btn" class="w-full bg-primary text-white py-4 rounded-xl font-semibold text-base hover:bg-primary-light transition-all hover:scale-[1.02] flex items-center justify-center gap-2">
+                Send Enquiry
+                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+              <p class="text-white/30 text-xs text-center">We respond within 24 hours · No spam</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ FOOTER ═══ -->
+    <footer class="bg-dark border-t border-white/10 py-10">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="flex flex-col md:flex-row items-center justify-between gap-6 mb-8">
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
+              <span class="text-white font-bold text-sm">S</span>
+            </div>
+            <span class="font-display font-extrabold text-white text-xl">Solution<span class="text-primary-light">Power</span></span>
+          </div>
+          <p class="text-white/40 text-sm text-center">Garg Elecserv Technologies Pvt. Ltd. (formerly A.K Garg & Sons)</p>
+          <div class="flex items-center gap-4 text-white/40 text-sm">
+            <a href="mailto:hello@solutionpower.in" class="hover:text-white transition-colors">hello@solutionpower.in</a>
+            <span>·</span>
+            <a href="tel:+919320347111" class="hover:text-white transition-colors">+91 93203 47111</a>
+          </div>
+        </div>
+        <div class="border-t border-white/10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-white/30 text-xs">
+          <p>© 2025 Garg Elecserv Technologies Pvt. Ltd. All rights reserved.</p>
+          <p>Office No. 10, Rushabh Apartment, Vasai East, Palghar – 401208</p>
+        </div>
       </div>
     </footer>
 
-    <!-- WhatsApp floating button -->
+    <!-- WhatsApp -->
     <a href="https://wa.me/919320347111?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20your%20power%20solutions." target="_blank" class="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform">
-      <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      <svg class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
     </a>
 
   </body>
